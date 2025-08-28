@@ -20,7 +20,7 @@ for i = 1:length(fonk_isimleri)
 end
 
 % Kullanıcıdan fonksiyon indeksleri
-secimler = input('Çizmek istediğiniz fonksiyonların numaralarını [örn. 1 3]: ');
+secimler = input('Çizmek istediğiniz fonksiyonların numaralarını örnek [1 3]: ');
 
 % Renk ve çizgi stili listesi
 renkler = {'b','r','g','m','k'};
@@ -59,3 +59,4 @@ xlabel('x'); ylabel('y');
 title('Seçilen Fonksiyonların Karşılaştırmalı Grafiği');
 legend show;
 hold off;
+
